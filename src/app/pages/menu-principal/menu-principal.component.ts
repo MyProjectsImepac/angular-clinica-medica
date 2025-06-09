@@ -10,11 +10,6 @@ export class MenuPrincipalComponent {
 
   constructor(private router: Router) {}
 
-  navegar(destino: string): void {
-    alert(`Funcionalidade "${destino}" ainda não implementada.`);
-    // No futuro: this.router.navigate([`/${destino}`]);
-  }
-
   sair(): void {
     this.router.navigate(['/login']);
   }

@@ -7,12 +7,16 @@ import { LoginComponent } from './pages/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuPrincipalComponent } from './pages/menu-principal/menu-principal.component';
+import { MedicosComponent } from './pages/medicos/medicos.component';
+import { EspecialidadesComponent } from './pages/especialidades/especialidades.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    MenuPrincipalComponent
+    MenuPrincipalComponent,
+    MedicosComponent,
+    EspecialidadesComponent
   ],
   imports: [
     BrowserModule,
