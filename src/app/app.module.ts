@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MenuPrincipalComponent } from './pages/menu-principal/menu-principal.component';
 import { MedicosComponent } from './pages/medicos/medicos.component';
 import { EspecialidadesComponent } from './pages/especialidades/especialidades.component';
+import { CabecalhoLogoutComponent } from './pages/cabecalho-logout/cabecalho-logout.component';
+import { RodapeComponent } from './pages/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EspecialidadesComponent } from './pages/especialidades/especialidades.c
     LoginComponent,
     MenuPrincipalComponent,
     MedicosComponent,
-    EspecialidadesComponent
+    EspecialidadesComponent,
+    CabecalhoLogoutComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,

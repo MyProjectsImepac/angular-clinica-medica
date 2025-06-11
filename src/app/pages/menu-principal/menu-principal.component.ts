@@ -7,9 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./menu-principal.component.css']
 })
 export class MenuPrincipalComponent {
-
   constructor(private router: Router) {}
-
   sair(): void {
     this.router.navigate(['/login']);
   }

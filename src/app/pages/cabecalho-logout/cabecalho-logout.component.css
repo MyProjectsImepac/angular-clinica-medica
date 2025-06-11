@@ -1,0 +1,14 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nome-clinica {
+  font-size: 1.4em;
+  font-weight: bold;
+}

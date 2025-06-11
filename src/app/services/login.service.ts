@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class LoginService {
 
-  private url = 'https://sua-api.com/login'; // Trocar pela URL real
+  private url = 'https://httpbin.org/status/200'; // Trocar pela URL real
 
   constructor(private http: HttpClient) {}
 
