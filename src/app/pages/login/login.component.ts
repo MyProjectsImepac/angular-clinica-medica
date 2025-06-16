@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
 
-  login: Login = { usuario: '', senha: '' };
+  login: Login = { usuario: '', senha: '' }; 
   erro: boolean = false;
 
   constructor(private loginService: LoginService, private router: Router) {}
@@ -22,7 +22,7 @@ export class LoginComponent {
     this.loginService.autenticar(this.login).subscribe({
       next: (res) => {
         if (res.status === 200) {
-          this.router.navigate(['/menu-principal']);
+          this.router.navigate(['/boas-vinda']);
         } else {
           this.erro = true;
         }
