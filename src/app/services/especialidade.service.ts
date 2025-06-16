@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class EspecialidadesService {
+export class EspecialidadeService {
 
   save(especialidade: Especialidade): Observable<any>{
      const headers = new HttpHeaders({ 'Content-Type': 'application/json' });

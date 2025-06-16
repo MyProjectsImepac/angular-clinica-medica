@@ -12,7 +12,6 @@ import { CabecalhoComponent } from './pages/cabecalho/cabecalho.component';
 import { BoasVindaComponent } from './pages/boas-vinda/boas-vinda.component';
 import { EspecialidadeAdicionarComponent } from './pages/especialidades/especialidade-adicionar/especialidade-adicionar.component';
 import { EspecialidadeListarComponent } from './pages/especialidades/especialidade-listar/especialidade-listar.component';
-import { MedicosListarComponent } from './pages/especialidades/medicos-listar/medicos-listar.component';
 import { MedicoListarComponent } from './pages/medicos/medico-listar/medico-listar.component';
 import { MedicoAdicionarComponent } from './pages/medicos/medico-adicionar/medico-adicionar.component';
 
@@ -26,7 +25,6 @@ import { MedicoAdicionarComponent } from './pages/medicos/medico-adicionar/medic
     BoasVindaComponent,
     EspecialidadeAdicionarComponent,
     EspecialidadeListarComponent,
-    MedicosListarComponent,
     MedicoListarComponent,
     MedicoAdicionarComponent,
   ],
