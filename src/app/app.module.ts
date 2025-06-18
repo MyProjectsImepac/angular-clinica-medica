@@ -14,6 +14,8 @@ import { EspecialidadeAdicionarComponent } from './pages/especialidades/especial
 import { EspecialidadeListarComponent } from './pages/especialidades/especialidade-listar/especialidade-listar.component';
 import { MedicoListarComponent } from './pages/medicos/medico-listar/medico-listar.component';
 import { MedicoAdicionarComponent } from './pages/medicos/medico-adicionar/medico-adicionar.component';
+import { ConvenioAdicionarComponent } from './pages/convenios/convenio-adicionar/convenio-adicionar.component';
+import { ConvenioListarComponent } from './pages/convenios/convenio-listar/convenio-listar.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { MedicoAdicionarComponent } from './pages/medicos/medico-adicionar/medic
     EspecialidadeListarComponent,
     MedicoListarComponent,
     MedicoAdicionarComponent,
+    ConvenioAdicionarComponent,
+    ConvenioListarComponent,
   ],
   imports: [
     BrowserModule,
